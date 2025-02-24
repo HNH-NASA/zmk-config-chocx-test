@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: kumamuk-git
+    - name: HNH-NASA
       url-base: https://github.com/HNH-NASA
   projects:
     - name: zmk
