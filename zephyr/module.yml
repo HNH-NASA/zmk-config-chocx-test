@@ -1,4 +1,4 @@
-name: roBa
+name: ChocX
 build:
   settings:
     board_root: config
