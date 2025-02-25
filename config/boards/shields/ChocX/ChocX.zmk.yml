@@ -2,7 +2,7 @@ file_format: "1"
 id: ChocX
 name: ChocX
 type: shield
-url: https://github.com/kumamuk-git/zmk-config-chocx-test
+url: https://github.com/HNH-NASA/zmk-config-chocx-test
 requires: [seeeduino_xiao_ble]
 features:
   - keys
