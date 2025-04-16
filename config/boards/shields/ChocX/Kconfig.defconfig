@@ -8,6 +8,7 @@ config ZMK_SPLIT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
 config ZMK_POINTING
     default y
 
@@ -16,6 +17,7 @@ config AZ1UBALL
 
 config I2C
     default y
+
 endif
 
 
@@ -28,6 +30,7 @@ config ZMK_SPLIT
     default y
 
 endif
+
 
 if ZMK_BACKLIGHT
 
