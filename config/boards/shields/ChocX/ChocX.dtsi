@@ -5,7 +5,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
-        zmk,backlight = &backlight;
     };
 
     default_transform: keymap_transform_0 {
@@ -37,11 +36,4 @@
         status = "disabled";
     };
 
-    backlight: pwmleds {
-        compatible = "pwm-leds";
-        pwm_led_0 {
-            pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
-        };
-    };
-
-};
+ };
